@@ -126,3 +126,58 @@ body{
         }
     }
 }
+.fifth_section {
+    background-image: url(/static_folder/backpic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin: 4vw 0vw 4vw 0vw;
+    height: 30vw;
+    
+    .next_step{
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 30vw;
+    }
+    .heading_area {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vw;
+    }
+
+    .heading_service {
+        h1 {
+            color: white;
+            font-size: 3.5vw;
+            
+        }
+    }
+
+    .dot_section {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 4vw;
+        }
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 4vw 10vw 0vw 14vw;
+        height: 20vw;
+
+        .grid-template{
+            padding: 4vw 0vw 0vw 0vw ;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            p{
+                color: white;
+                font-size: 2vw;
+                font-weight: 500;
+            }
+        }
+    }
+}
