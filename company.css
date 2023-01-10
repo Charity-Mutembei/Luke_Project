@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+body .navbar_area {
+  padding: 2vw;
+}
+body .navbar_area .row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+body .navbar_area .row .col ul {
+  display: flex;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+body .navbar_area .row .col ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-items: flex-start;
+  width: 4vw;
+}
+body .navbar_area .row .grid-item .col2 ul li #website_logo {
+  width: 50vw;
+  margin-left: 23vw;
+  padding-right: 35vw;
+}
+body .navbar_area .row .col ul li #instagram, body #youtube, body #twitter, body #dribble, body #toggle_button {
+  color: white;
+}
+body .navbar_area .row .col ul li #instagram :hover, body #youtube :hover, body #twitter :hover, body #dribble :hover, body #toggle_button :hover {
+  color: greenyellow;
+}/*# sourceMappingURL=company.css.map */

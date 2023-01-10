@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    .navbar_area{
+        padding: 2vw;
+    }
+    .navbar_area .row{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .navbar_area .row .col ul{
+        display: flex;
+        align-items: flex-start;
+        justify-items: flex-start;
+    }
+    .navbar_area .row .col ul li{
+        display: flex;
+        align-items: flex-start;
+        justify-items: flex-start;
+        width: 4vw;
+    }
+    .navbar_area .row .grid-item .col2 ul li #website_logo{
+        width: 50vw;
+        margin-left: 23vw;
+        padding-right: 35vw;
+    }
+    .navbar_area .row .col ul li #instagram , #youtube , #twitter , #dribble , #toggle_button {
+        color: white;
+        :hover{
+            color: greenyellow;
+        }
+    }
+}
