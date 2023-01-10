@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,8 @@
 
 body {
   background-color: black;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 body .navbar_area {
   padding: 2vw;
@@ -35,4 +38,71 @@ body .navbar_area .row .col ul li #instagram, body #youtube, body #twitter, body
 }
 body .navbar_area .row .col ul li #instagram :hover, body #youtube :hover, body #twitter :hover, body #dribble :hover, body #toggle_button :hover {
   color: greenyellow;
+}
+
+.second_section .row2 {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  padding: 4vw;
+}
+.second_section .row2 .grid-item p, .second_section .row2 .grid-item h1 {
+  color: white;
+}
+.second_section .row2 .grid-item h1 {
+  font-size: 6vw;
+}
+.second_section .row2 .grid-item #second_part {
+  color: orangered;
+}
+.second_section .row2 .grid-item #lets_talk {
+  -webkit-text-decoration: underline solid greenyellow;
+          text-decoration: underline solid greenyellow;
+  margin-left: 1vw;
+  padding: 2vw;
+}
+.second_section .row2 .grid-item #lets_talk :hover {
+  cursor: pointer;
+  color: greenyellow;
+}
+.second_section .row2 .grid-item #far_right_colum {
+  margin-top: 10vw;
+  margin-left: 1.5vw;
+}
+
+.mouse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mouse #mouse {
+  color: white;
+  font-size: 3vw;
+  margin-top: 4vw;
+}
+
+.brands_worked_with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8vw 12vw 2vw 12vw;
+}
+.brands_worked_with h1 {
+  color: white;
+}
+
+.brands_deco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brands_deco img {
+  width: 4vw;
+}
+
+.third_section .row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.third_section .row .grid-item {
+  padding: 3vw;
 }/*# sourceMappingURL=company.css.map */
