@@ -107,3 +107,22 @@ body{
         }
     }
 }
+.fourth_section{
+    .row{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 4vw 12vw 4vw 12vw;
+        .grid-template{
+            padding: 4vw;
+            :hover{
+                filter: grayscale(100%);
+                cursor: pointer;
+            }
+            p{
+                color: white;
+                line-height: 2vw;
+                margin-top: 3.5vw;
+            }
+        }
+    }
+}

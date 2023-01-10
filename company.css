@@ -105,4 +105,22 @@ body .navbar_area .row .col ul li #instagram :hover, body #youtube :hover, body 
 }
 .third_section .row .grid-item {
   padding: 3vw;
+}
+
+.fourth_section .row {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 4vw 12vw 4vw 12vw;
+}
+.fourth_section .row .grid-template {
+  padding: 4vw;
+}
+.fourth_section .row .grid-template :hover {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+.fourth_section .row .grid-template p {
+  color: white;
+  line-height: 2vw;
+  margin-top: 3.5vw;
 }/*# sourceMappingURL=company.css.map */
