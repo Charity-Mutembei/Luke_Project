@@ -171,4 +171,111 @@ body .navbar_area .row .col ul li #instagram :hover, body #youtube :hover, body 
   color: white;
   font-size: 2vw;
   font-weight: 500;
+}
+
+.sixth_section {
+  padding: 2vw;
+}
+.sixth_section .our_work {
+  color: white;
+  font-size: 1.5vw;
+}
+.sixth_section span img {
+  width: 7vw;
+}
+.sixth_section .image_selection {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.sixth_section .image_selection .image_wrapper {
+  display: flex;
+  height: 100%;
+}
+.sixth_section .image_selection .image_wrapper .slide {
+  width: 100%;
+  height: 100%;
+}
+.sixth_section .image_selection .image_wrapper .slide img {
+  width: 100%;
+  height: 19vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 1vw;
+}
+.sixth_section .image_selection .slide_btn {
+  cursor: pointer;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 70;
+}
+.sixth_section .image_selection .button_1 {
+  left: 45%;
+}
+.sixth_section .image_selection .button_2 {
+  left: 50%;
+}
+.sixth_section .image_selection .button_3 {
+  left: 55%;
+}
+.sixth_section .image_selection .button_4 {
+  left: 60%;
+}
+.sixth_section .image_selection .button_5 {
+  left: 65%;
+}
+.sixth_section .image_selection .button_6 {
+  left: 70%;
+}
+.sixth_section .image_selection .button_7 {
+  left: 75%;
+}
+
+.seventh_section .employee_section .title_section {
+  display: grid;
+  justify-content: center;
+}
+.seventh_section .employee_section .title_section h1 {
+  color: white;
+  font-size: 3vw;
+}
+.seventh_section .employee_section .title_section img {
+  width: 7vw;
+  margin-left: 7vw;
+}
+.seventh_section .employee_section .pic_section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 3vw;
+}
+
+.seventh_section .employee_section .pic_section .grid_template .card :hover {
+  background-color: orangered;
+}
+.seventh_section .employee_section .pic_section .grid_template .card .card_content {
+  padding: 1vw;
+}
+.seventh_section .employee_section .pic_section .grid_template .card .card_content .name_section {
+  color: white;
+}
+.seventh_section .employee_section .pic_section .grid_template .card .card_content .professional_position {
+  color: white;
+  font-style: italic;
+}
+.seventh_section .employee_section .pic_section .grid_template .card .card_content p {
+  color: white;
+  margin-top: 1vw;
+  text-align: left;
+}
+.seventh_section .employee_section .pic_section .grid_template .card img {
+  height: 39vw;
+}
+
+.footer_section {
+  color: white;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 3vw;
 }/*# sourceMappingURL=company.css.map */
